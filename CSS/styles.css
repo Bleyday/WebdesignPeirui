@@ -44,6 +44,10 @@
     #myCanvas{
         border:1px solid #000000;
     }
+    #haifoss{
+        height: 500px;
+        width: auto;
+    }
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
