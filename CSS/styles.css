@@ -1,0 +1,70 @@
+:root{
+    --dark-jungle-green: #212922ff;
+    --brunswick-green: #294936ff;
+    --feldgrau: #3e6259ff;
+    --viridian: #5b8266ff;
+    --magic-mint: #aef6c7ff;
+    
+    /* CSS HSL */
+    --dark-jungle-green: hsla(127, 11%, 15%, 1);
+    --brunswick-green: hsla(144, 28%, 22%, 1);
+    --feldgrau: hsla(165, 23%, 31%, 1);
+    --viridian: hsla(137, 18%, 43%, 1);
+    --magic-mint: hsla(141, 80%, 82%, 1);
+    }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: var(--magic-mint);
+        color: #ffff;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .wrapper{
+        background-color: var(--brunswick-green);
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        padding-top: 10px;
+        min-height: 100vh;
+        position: relative;
+    } 
+    #title{
+        background-color: var(--brunswick-green);
+        text-align: center;
+    }
+    video{
+        background-color: var(--brunswick-green);
+        margin-top: 20px;
+    }
+    figcaption{
+        font-size: smaller;
+        font-style: italic;
+    }
+    #myCanvas{
+        border:1px solid #000000;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #myCanvas{
+        width: 50%;
+    }
+    video{
+        background-color: black;
+        margin-top: 20px;
+        width: 50%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
