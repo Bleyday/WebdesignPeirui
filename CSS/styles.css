@@ -12,6 +12,11 @@
     --viridian: hsla(137, 18%, 43%, 1);
     --magic-mint: hsla(141, 80%, 82%, 1);
     }
+    body {
+        background-color: var(--magic-mint);
+        color: #ffff;
+        font-family: Helvetica, Arial, sans-serif;
+    }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     body {
@@ -54,10 +59,28 @@
     #myCanvas{
         width: 50%;
     }
+    .wrapper{
+        background-color: var(--brunswick-green);
+        margin: auto;
+        width: 50%;
+        text-align: center;
+        padding-top: 10px;
+        min-height: 100vh;
+        position: relative;
+    } 
     video{
         background-color: black;
         margin-top: 20px;
         width: 50%;
+    }
+    #iceland-vid{
+        width: 100%;
+    }
+    #iceland-aud{
+        width: 100%;
+    }
+    #haifoss{
+        width: 100%;
     }
 }
 
